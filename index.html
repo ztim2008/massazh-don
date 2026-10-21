@@ -1,0 +1,31 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Аркадия — спа-массаж в городе</title><link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"></head><body>
+<div class="topbar"><div class="wrap"><span>◷ ежедневно 10:00–22:00</span><span>✓ только классический и спа-массаж</span><span>⌖ Ваш город, ул. Примерная, 1</span></div></div>
+<header class="head"><div class="wrap">
+ <div class="hleft"><a href="#masters" class="hicon">☺<small>Мастера</small></a><a href="#programs" class="hicon">❖<small>Программы</small></a></div>
+ <a class="logo" href="#"><b>АРКАДИЯ</b><span>СПА · МАССАЖ · ОТДЫХ</span></a>
+ <div class="hright"><a href="tel:+995000000000" class="hicon">☏<small>Позвонить</small></a><a href="#booking" class="hicon">✎<small>Запись</small></a></div>
+</div></header>
+<nav class="nav"><div class="wrap"><a href="#" class="home">⌂</a><a href="#masters">Мастера <sup>8</sup></a><a href="#programs">Программы ▾</a><a href="#journal">Журнал</a><a href="#booking">Запись</a><a href="#contacts">Контакты</a><a href="#booking" class="nbtn">Записаться</a></div></nav>
+<main>
+<section class="hero"><div class="wrap"><div class="htext"><h1>Спа-массаж, после которого хочется жить медленнее</h1><p>Классические, расслабляющие и ароматерапевтические программы от сертифицированных мастеров. Тишина, тёплые масла, чай после сеанса.</p><a href="#booking" class="btn">Выбрать время</a><a href="#programs" class="btn ghost">Программы и цены</a></div><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=900&q=80" alt="Спа-массаж"></div></section>
+<section class="sec" id="masters"><div class="wrap"><div class="sh"><h2>Мастера сегодня</h2><a href="#booking">Все мастера <sup>8</sup> →</a></div>
+<div class="row" id="mrow"></div></div></section>
+<section class="sec alt" id="programs"><div class="wrap"><div class="sh"><h2>Программы</h2><a href="#booking">Записаться →</a></div><div class="grid" id="prow"></div></div></section>
+<section class="sec" id="journal"><div class="wrap"><div class="sh"><h2>Журнал Аркадии</h2><a href="#journal">Все статьи →</a></div><div class="row jrow">
+ <article class="jc"><div class="jimg" style="background-image:url(https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&q=70)"><span class="tag">Здоровье</span></div><time>18 октября 2026</time><h3>Как часто нужен массаж спины офисному работнику</h3></article>
+ <article class="jc"><div class="jimg" style="background-image:url(https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=70)"><span class="tag">Ароматерапия</span></div><time>11 октября 2026</time><h3>Какие масла выбрать для вечернего расслабления</h3></article>
+ <article class="jc"><div class="jimg" style="background-image:url(https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=70)"><span class="tag">Новости</span></div><time>5 октября 2026</time><h3>Новая программа «Горячие камни» уже в меню</h3></article>
+ <article class="jc"><div class="jimg" style="background-image:url(https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=70)"><span class="tag">Советы</span></div><time>30 сентября 2026</time><h3>Что делать до и после сеанса, чтобы эффект держался дольше</h3></article>
+</div></div></section>
+<section class="sec alt" id="booking"><div class="wrap book"><div><h2>Запись на сеанс</h2><p>Оставьте заявку — администратор перезвонит в течение 15 минут и подтвердит время.</p><ul class="ticks"><li>Отдельные кабинеты с душем</li><li>Одноразовое бельё и полотенца</li><li>Оплата картой или наличными</li></ul></div>
+<form id="form" class="card"><label>Имя<input name="name" required></label><label>Телефон<input name="phone" type="tel" required placeholder="+995 ..."></label>
+<label>Программа<select name="program" id="psel"></select></label><label>Мастер<select name="master" id="msel"><option>Любой свободный</option></select></label>
+<div class="two"><label>Дата<input name="date" type="date" required></label><label>Время<input name="time" type="time" required></label></div>
+<button class="btn">Отправить заявку</button><small>Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</small></form>
+<div id="ok" class="card ok" hidden><div class="okc">✓</div><h3>Заявка отправлена</h3><p id="oktext"></p><button class="btn ghost" id="again">Новая заявка</button></div></div></section>
+<section class="sec" id="contacts"><div class="wrap contacts"><div class="card"><h3>Адрес</h3><p>Ваш город, ул. Примерная, 1</p></div><div class="card"><h3>Телефон</h3><p><a href="tel:+995000000000">+995 000 00 00 00</a></p></div><div class="card"><h3>Часы работы</h3><p>Ежедневно 10:00–22:00</p></div><div class="card"><h3>Мессенджеры</h3><p><a href="#">Telegram</a> · <a href="#">WhatsApp</a></p></div></div></section>
+</main>
+<footer class="foot"><div class="wrap"><div class="logo small"><b>АРКАДИЯ</b><span>СПА · МАССАЖ · ОТДЫХ</span></div><p>Салон оказывает услуги классического, оздоровительного и спа-массажа. Интим-услуги не оказываются. Имеются противопоказания, проконсультируйтесь со специалистом.</p><p class="copy">© 2026 Аркадия · <a href="#">Политика конфиденциальности</a></p></div></footer>
+<script src="app.js"></script></body></html>
