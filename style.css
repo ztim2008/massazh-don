@@ -21,3 +21,14 @@
 @media(max-width:800px){.topbar .wrap{gap:14px;font-size:10px;justify-content:space-between}.topbar span:nth-child(3){display:none}.hleft,.hright{width:auto;gap:14px}.hicon small{display:none}.logo b{font-size:20px}.nav .wrap{justify-content:flex-start;gap:22px;overflow-x:auto;white-space:nowrap}.nav .nbtn{display:none}
 .hero .wrap{grid-template-columns:1fr;padding:22px 16px}.hero img{height:200px;order:-1}.hero h1{font-size:26px}.btn{margin-bottom:8px}
 .row{grid-auto-columns:38%}.jrow{grid-auto-columns:75%}.grid,.book,.contacts{grid-template-columns:1fr}.contacts{grid-template-columns:1fr 1fr}}
+
+.head{border-bottom:1px solid #d1c7bb}.head .wrap{height:84px}.logo b{font-size:34px;letter-spacing:6px}.hicon{transition:color .2s}.hicon:hover{color:#0e8a94}
+.hphone{font-weight:900;font-size:16px;color:#1c1c1c;text-align:right}.hphone small{display:block;font-weight:400;font-size:11px;color:#0e8a94}
+.nav{box-shadow:0 2px 8px #0003}.nav a:not(.nbtn):hover{color:#16a3ad}
+.row#mrow{grid-auto-flow:row;grid-template-columns:repeat(4,1fr);gap:18px;overflow:visible}
+.mc{border-radius:16px;transition:transform .25s,box-shadow .25s}.mc:hover{transform:translateY(-4px);box-shadow:0 10px 24px #0002}
+.badge{position:absolute;top:10px;left:10px;background:#9b3fa5;color:#fff;font-size:11px;font-weight:700;border-radius:12px;padding:3px 9px}
+.fav{position:absolute;top:8px;right:8px;width:34px;height:34px;border-radius:50%;border:0;background:#fffc;color:#bbb;font-size:17px;cursor:pointer}.fav.on{color:#e0457b}
+.st{font-size:12px;padding:6px;font-weight:500}.mb{padding:12px 14px 14px}.mn{display:flex;justify-content:space-between;align-items:baseline}.mn b{font-size:17px}.mn span{color:#e0a100;font-size:13px}
+.sp{display:block;font-size:13px;color:#8a8780;margin:2px 0 10px}.mf{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #eee;padding-top:10px}.mf>span{font-weight:700}
+@media(max-width:800px){.row#mrow{grid-template-columns:1fr 1fr;gap:10px}.head .wrap{height:64px}.logo b{font-size:22px;letter-spacing:3px}.hphone{display:none}.mb{padding:8px 10px}.mn b{font-size:15px}.mf{flex-direction:column;align-items:stretch;gap:6px}.mf .btn{text-align:center}}
